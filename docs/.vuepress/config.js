@@ -3,13 +3,13 @@ const sidebar = require('./sidebar.js');
 
 module.exports = {
     title: 'ArC | Xor 7 Studio',
-    base: '/arc-website/',
+    base: '/',
     markdown: {
         lineNumbers: true
     },
     theme: 'vdoing',
     themeConfig: {
-        repo: 'MC-XiaoHei/arc-website',
+        repo: 'MC-XiaoHei/ArC-Website',
         docsDir: 'docs',
         docsBranch: 'main',
         editLinks: true,

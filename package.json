@@ -1,5 +1,5 @@
 {
-  "name": "bungeecord-cn-translation",
+  "name": "arc-website",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
