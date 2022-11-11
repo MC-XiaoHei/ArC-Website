@@ -1,5 +1,5 @@
 module.exports = [{
-        title: '教程',
+        title: 'ArC简介',
         collapsable: false,
         children: [
             ['/', '首页'],]
