@@ -1,4 +1,4 @@
-# Argon Championship Website
+# 首页
 
 ![](https://img.shields.io/badge/license-CC--BY--SA--4.0-green)
 
