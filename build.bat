@@ -1,4 +1,2 @@
-:start
-npm run dev
-pause
-goto start
+cmd /u /c "npm install"
+cmd /u /c "npm run dev"
