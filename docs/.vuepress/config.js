@@ -11,7 +11,7 @@ module.exports = {
     themeConfig: {
         repo: 'MC-XiaoHei/ArC-Website',
         docsDir: 'docs',
-        docsBranch: 'main',
+        docsBranch: 'master',
         editLinks: true,
         editLinkText: '编辑此页面',
         nav,
