@@ -4,6 +4,7 @@ module.exports = [
         collapsable: false,
         children: [
             ['/', '首页'],
+            ['/什么是ArC', '什么是ArC'],
             ['/架构设计','架构设计']
         ]
     },{
@@ -16,6 +17,7 @@ module.exports = [
         title: '技术文档',
         collapsable: false,
         children: [
+            ['/文档简介', '文档简介'],
             ['/Race-Plus-Plus-Dev', 'Race Plus Plus 技术文档']
         ]
     }

@@ -2,7 +2,7 @@ const nav = require('./nav.js');
 const sidebar = require('./sidebar.js');
 
 module.exports = {
-    title: 'ArC | Xor 7 Studio',
+    title: 'ArC',
     base: '/',
     markdown: {
         lineNumbers: true

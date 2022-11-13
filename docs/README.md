@@ -2,6 +2,9 @@
 
 ![](https://img.shields.io/badge/license-CC--BY--SA--4.0-green)
 
+## 比赛正在筹划中...
+本站点将记录比赛筹划的全过程。
+
 ## 版权声明
 ![[http://creativecommons.org/licenses/by-sa/4.0/](知识共享许可协议)](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
