@@ -2,6 +2,7 @@ const nav = require('./nav.js');
 const sidebar = require('./sidebar.js');
 
 module.exports = {
+    head: [['link',{ rel: 'icon', href: 'logo.webp' }]],
     title: 'ArC',
     base: '/',
     markdown: {
