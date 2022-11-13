@@ -17,7 +17,7 @@ module.exports = [
         title: '技术文档',
         collapsable: false,
         children: [
-            ['/文档简介', '文档简介'],
+            ['/文档说明', '文档说明'],
             ['/Race-Plus-Plus-Dev', 'Race Plus Plus 技术文档']
         ]
     }
