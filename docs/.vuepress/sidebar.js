@@ -18,7 +18,8 @@ module.exports = [
         collapsable: false,
         children: [
             ['/文档说明', '文档说明'],
-            ['/Race-Plus-Plus-Dev', 'Race Plus Plus 技术文档']
+            ['/Race-Plus-Plus-Dev', 'Race Plus Plus 技术文档'],
+            ['/ArgonLibrary-Dev', 'ArgonLibrary 技术文档']
         ]
     }
 ]
