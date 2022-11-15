@@ -10,8 +10,8 @@ module.exports = {
     title: 'ArC',
     base: '/',
     extendMarkdown(md) {
-            md.set({ html: true });
-            md.use(require("markdown-it-katex"));
+            md.use(require('markdown-it-mathjax3'))
+                md.linkify.set({ fuzzyEmail: false })
         },
     markdown: {
         lineNumbers: true
