@@ -59,7 +59,10 @@ public abstract class LivingEntity extends Entity {
 分析可以发现，MC的击退，受伤时反重力这些设定都是依靠**Velocity**实现的。
 
 ::: warning
-这个Velocity实质上是一个三维矢量数据，和ArC使用的代理服务端Velocity**不是**一个东西
+你可以把这个Velocity理解为一个给玩家的力度，这让玩家“飞起来”，和ArC使用的代理服务端Velocity**不是**一个东西。
+
+**但是实际上Velocity是玩家的实时动量，并会在下一tick被使用。**
+这里这么说只是为了方便理解。
 :::
 
 我们可以看到MC已经给我们实现了平面击退的轮子（takeKnockback方法），那么这个轮子怎么用呢？
