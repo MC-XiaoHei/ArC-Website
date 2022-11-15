@@ -1,6 +1,6 @@
 # Race Plus Plus 技术文档
 
-## 基本功能设计
+## 基本功能
 
 Race Plus Plus（以下简称RPP）的游戏逻辑十分简单，基本逻辑只有两条：
 
