@@ -156,5 +156,41 @@ $n$,$n+1$,$n-1$,$n+2$,$n-2$......
 
 :::
 
-如上图，我们可以看到，在某一赛段$Sec(n)$中，我们要计算一个玩家$P$在赛段中的位置，很明显即计算线段$Sec(n).beginH$的长度。
+:::tip
+上图中$B$点代表$Sec(n).begin$,$E$点代表$Sec(n).end$，且我们规定一个点$A$到另一个点$B$的长度为A.disTo(B)
+:::
 
+如上图，我们可以看到，在某一赛段$Sec(n)$中，我们要计算一个玩家$P$在赛段中的位置，很明显即计算线段$BH$的长度。由于我们已知$BE$，$BP$，$EP$，因此这个长度可以通过简单的数学计算得到。
+
+:::tip
+BE即$Sec(n).begin.disTo(Sec(n).end)$
+
+BP即$Sec(n).begin.disTo(P)$
+
+EP即$Sec(n).end.disTo(P)$
+:::
+
+:::details 数学推导
+在$Rt\triangle PHB$与$Rt\triangle PHE$中,由勾股定理得：
+$$\begin{cases}
+BH^{2}=BP^{2}-PH^{2}\\
+EH^{2}=EP^{2}-PH^{2}
+\end{cases}$$
+进一步得：
+$$\begin{cases}
+PH^{2}=BP^{2}-BH^{2}\\
+PH^{2}=EP^{2}-EH^{2}
+\end{cases}$$
+联立得：
+$$BP^{2}-BH^{2}=EP^{2}-EH^{2}$$
+由图像得$EH=BE-BH$,代入上式得：
+$$ BP^{2}-BH^{2}=EP^{2}-(BE-BH)^{2}$$
+$$BP^{2}-BH^{2}=EP^{2}-BE^{2}+2BE\cdot BH-BH^{2}$$
+$$BP^{2}-EP^{2}+BE^{2}=2BE\cdot BH$$
+$$BH=\frac{BP^{2}-EP^{2}+BE^{2}}{2BE}$$
+$$BH=\frac{BP^{2}-EP^{2}}{2BE}+\frac{BE}{2}$$
+$$BH=\frac{(BP+EP)(BP-EP)}{2BE}+\frac{BE}{2}$$
+:::
+
+设玩家$P$在$Sec(n)$中的位置为$P.posAt(Sec(n))$，那么最终我们可以得到这个式子：（因原式太长，故没有替换$BE$,$BP$与$EP$）
+$$P.posAt(Sec(n))=\frac{(BP+EP)(BP-EP)}{2BE}+\frac{BE}{2}$$
